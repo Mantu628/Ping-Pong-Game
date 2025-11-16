@@ -1,14 +1,21 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background-color: grey;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    width: 400; 
-    height: 600;
+body {
+  background-color: rgb(64, 64, 136);
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  background-color: #222;
+  border: 2px solid #444;
+  border-radius: 8px;
+  display: block;
 }
